@@ -1,0 +1,35 @@
+.azul-menubar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: lightblue;
+}
+
+.azul-menubar-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.azul-menubar-linkbox {
+    background-color: coral;
+
+    padding: 12px;
+    margin: 0 4px;
+}
+
+.azul-menubar-link {
+    color: black;
+    
+    text-decoration: none;
+}
+
+.azul-menubar-settings {
+    background-color: green;
+
+    margin: 0 4px;
+}
